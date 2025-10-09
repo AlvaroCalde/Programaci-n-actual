@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Cuenta
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cuenta\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=codigo\ titular\ saldo
+comment1.target=Cuenta(java.lang.String,\ java.lang.String,\ float)
+comment2.params=
+comment2.target=java.lang.String\ getCodigo()
+comment3.params=
+comment3.target=java.lang.String\ getTitular()
+comment4.params=
+comment4.target=float\ getSaldo()
+comment5.params=codigo
+comment5.target=void\ setCodigo(java.lang.String)
+comment6.params=titular
+comment6.target=void\ setTitular(java.lang.String)
+comment7.params=saldo
+comment7.target=void\ setSaldo(float)
+comment8.params=cantidad
+comment8.target=void\ ingresar(float)
+comment9.params=cantidad
+comment9.target=void\ reintegrar(float)
+numComments=10

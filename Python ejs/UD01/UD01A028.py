@@ -1,0 +1,5 @@
+seg=int(input("Introduzca segundos: "))
+horas=int(seg/3600)
+print(f"Horas: {horas}")
+print(f"Minutos: {int(seg-horas*3600)/60}")
+print(f"Segundos: {seg%60}")
