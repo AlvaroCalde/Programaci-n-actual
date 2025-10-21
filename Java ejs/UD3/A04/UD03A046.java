@@ -3,7 +3,7 @@ public class UD03A046{
     public static void main(String[] args){
         int n;
         Scanner teclado=new Scanner(System.in);
-
+        //boolean hyperpar;
         System.out.println("Introduzca positivo entero: ");
         n=teclado.nextInt();
         
@@ -19,7 +19,7 @@ public class UD03A046{
             System.out.println("Error en la entrada");
         }
         */
-        if(esHyperpar(n)){
+        if(esHyperpar(n)){//si lo hago por flag se quita el (n)
             if(n>0){
                 System.out.println("Es hyperpar");    
             }
@@ -35,12 +35,12 @@ public class UD03A046{
     public static boolean esHyperpar(int n){
         boolean hyperpar=true;
         if (n % 2 != 0) {
-            hyperpar=false; // El número no es par
+            hyperpar=false; 
         }
          while (n > 0) {
             int digito = n % 10;
             if (digito % 2 != 0) {
-                hyperpar= false; // Uno de los dígitos es impar
+                hyperpar= false; 
             }
             n /= 10;
         }
