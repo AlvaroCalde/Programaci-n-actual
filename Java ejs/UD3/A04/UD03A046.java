@@ -3,7 +3,7 @@ public class UD03A046{
     public static void main(String[] args){
         int n;
         Scanner teclado=new Scanner(System.in);
-        //boolean hyperpar;
+        //boolean hyperpar; si lo hago por flag pongo eso
         System.out.println("Introduzca positivo entero: ");
         n=teclado.nextInt();
         
