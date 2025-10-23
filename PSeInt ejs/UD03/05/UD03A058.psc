@@ -2,22 +2,23 @@ Proceso UD03A058
 	Definir num,i,div Como Entero;
 	Definir  primo Como Logico;
 	primo<-Verdadero;
-	Escribir "Introduzca un número entero positivo: " Sin Saltar;
+	Escribir "Introduzca un nï¿½mero entero positivo: " Sin Saltar;
 	Leer num;
 	
-	Mientras num<=1 Hacer
+	Mientras num<=0 Hacer
 		Escribir "Entrada incorrecta";
-		Escribir "Introduzca un número entero positivo: " Sin Saltar;
+		Escribir "Introduzca un nï¿½mero entero positivo: " Sin Saltar;
 		Leer num;
 	FinMientras
 	
 	Para i<-2 Hasta num/2 Con Paso 1 Hacer
 		Si num%i==0 Entonces
 			primo<-Falso;
+			i<-n;
 		FinSi
 	FinPara
 	
-	Si primo Entonces
+	Si primo Y n>1 Entonces
 		Escribir "Es primo";
 	SiNo
 		Escribir "No es primo";
