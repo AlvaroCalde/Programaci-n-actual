@@ -13,7 +13,7 @@ public class UD03A058{
             n=teclado.nextInt();
         }
         
-        for(i=2;i<n/2;i++){
+        for(i=2;i<n/2 && primo;i++){
             if(n%i==0){
                 primo=false;
                 i=n;
