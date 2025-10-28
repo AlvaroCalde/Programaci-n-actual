@@ -6,6 +6,12 @@ public class UD03A066{
         System.out.print("Introduzca filas: (2-10)");
         filas=teclado.nextInt();
 
+        while(filas<2 && filas>10){
+            System.out.println("Error en la entrada");
+            System.out.print("Introduzca filas: (2-10)");
+            filas=teclado.nextInt();
+        }
+
         for(i=0;i<=filas-1;i++){
             for(j=1;j<=i+1;j++){
                 System.out.print(j+" ");

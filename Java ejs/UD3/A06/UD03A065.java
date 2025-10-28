@@ -15,6 +15,7 @@ public class UD03A065{
             System.out.println("Introduzca columnas: ");
             columnas=teclado.nextInt();
         }
+        
         for(i=1;i<=filas;i++){
             for(j=1;j<=columnas;j++){
                 System.out.print("* ");
