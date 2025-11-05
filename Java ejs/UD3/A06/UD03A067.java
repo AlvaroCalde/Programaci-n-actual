@@ -13,7 +13,7 @@ public class UD03A067{
         }
 
         for(i=1;i<=filas;i++){
-            for(j=filas;j<=i;j--){
+            for(j=filas;j>=i;j--){
                 System.out.print(j+" ");
             }
             System.out.println("");

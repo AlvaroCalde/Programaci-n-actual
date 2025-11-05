@@ -14,7 +14,7 @@ public class UD03A064{
         }
 
         for(j=2;j<=n;j++){
-           for(i=2;i<n/2 && primo;i++){
+           for(i=2;i<j/2 && primo;i++){
                 if(j%i==0){
                     primo=false;
                     i=j;
