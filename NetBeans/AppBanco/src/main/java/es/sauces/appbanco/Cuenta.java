@@ -70,22 +70,31 @@ public class Cuenta {
         this.codigo = codigo;
     }
     
-    
+    /**
+     * Suma la cantidad especificada al saldo de la cuenta
+     * @param cantidad 
+     */
     public void ingresar(float cantidad){
         if(cantidad>0){
             saldo+=cantidad;
         }   
     }
-    
+    /**
+     * Resta la cantidad especificada al saldo de la cuenta
+     * @param cantidad 
+     */
     public void reintegrar(float cantidad){
         if(cantidad>0){
             saldo-=cantidad;
         }   
     }
-
+    /**
+     * Muestra el contenido de la cuenta formateado
+     * @return 
+     */
     @Override
     public String toString() {
-        return "codigo=" + codigo + ", titular=" + titular + ", saldo=" + saldo;
+        return codigo + "," + titular + "," + saldo;
     }
     
     
